@@ -1,13 +1,5 @@
-# Streamlit for web app interface
-streamlit>=1.24.0
-
-# Core libraries
-numpy>=1.23.0
-Pillow>=9.0.0
-matplotlib>=3.5.0
-
-# TensorFlow (most compatible version)
-tensorflow==2.13.0
-
-# For TensorFlow compatibility
-protobuf<4.0.0
+streamlit
+tensorflow
+numpy
+Pillow
+matplotlib
