@@ -11,11 +11,11 @@ MODEL_PATH = 'LungcancerPrediction.h5'
 CLASS_NAMES = ['No Cancer', 'Chance of Cancer', 'Lung Cancer']
 
 # Load the model once
-@st.cache_resource
-def load_model():
-    return tf.keras.models.load_model(MODEL_PATH)
+# @st.cache_resource
+# def load_model():
+#     return tf.keras.models.load_model(MODEL_PATH)
 
-model = load_model()
+model = tf.keras.models.load_model(MODEL_PATH)
 
 # Page settings
 st.markdown("## 🩺 Lung Cancer Detection from Chest X-ray")
