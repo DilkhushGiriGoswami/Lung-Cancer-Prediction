@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # Constants
 IMAGE_SIZE = 256
-MODEL_PATH = 'LungCancerPrediction.h5'
+MODEL_PATH = 'LungcancerPrediction.h5'
 CLASS_NAMES = ['No Cancer', 'Chance of Cancer', 'Lung Cancer']
 
 # Load the model once
